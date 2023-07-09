@@ -9,7 +9,11 @@
     </head>
     <body>
         <header>
-
+            <nav>
+                <ul>
+                    <a href = "odin-html-about.html">About me</a>
+                </ul>
+            </nav>
         </header>
         <main>
             <article>
@@ -21,7 +25,16 @@
                 </p>
                 <h2>List of things I like to do in no particular order.</h2>
                 <ul>
-                    <li> Programming </li>
+                    <li> 
+                        <!-- The target attribute choses where the link is opened. -->
+                        <!-- By Default the target is _self and it opens in the current tab. -->
+                        <!-- setting target with _blank will open the window in a new tab. -->
+                        <!-- it is a good habit to add a relationship attribute with noopener and noreferrer -->
+                        <!-- This relationship attributes are good measures for security reasons. -->
+                        <!-- Absolute links are links to outside resources like websites -->
+                        <!-- Relative paths are link to pages on the same site and do not include domain names -->
+                        <a href = "https://www.theodinproject.com" target="_blank" rel = "noopener noreferrer"> Programming </a>
+                    </li>
                     <li> Anime </li>
                 </ul>
                 <h2> Random ordered list to  test an ordered list.</h2>
